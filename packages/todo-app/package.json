@@ -1,6 +1,6 @@
 {
   "name": "todo-app",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "description": "",
   "main": "index.js",
   "typings": "index.d.ts",
@@ -8,10 +8,10 @@
   "license": "MIT",
   "dependencies": {
     "react": "^0.14.3",
-    "todo-footer": "^1.0.6",
-    "todo-header": "^1.0.6",
-    "todo-main-section": "^1.0.6",
-    "todo-store": "^1.0.6"
+    "todo-footer": "^1.0.7",
+    "todo-header": "^1.0.7",
+    "todo-main-section": "^1.0.7",
+    "todo-store": "^1.0.7"
   },
   "files": [
     "index.js",

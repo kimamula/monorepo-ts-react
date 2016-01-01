@@ -1,6 +1,6 @@
 {
   "name": "todo-header",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "description": "",
   "main": "index.js",
   "typings": "index.d.ts",
@@ -8,8 +8,8 @@
   "license": "MIT",
   "dependencies": {
     "react": "^0.14.3",
-    "todo-action": "^1.0.6",
-    "todo-text-input": "^1.0.6"
+    "todo-action": "^1.0.7",
+    "todo-text-input": "^1.0.7"
   },
   "files": [
     "index.js",
