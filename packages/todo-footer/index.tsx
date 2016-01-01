@@ -2,7 +2,7 @@ import * as React from 'react';
 import TodoActions from 'todo-action';
 import {Todo} from 'todo-store'
 
-export default class Footer extends React.Component<{allTodos: {[id: string]: Todo}}, {}> {
+export default class Footer extends React.Component<{allTodos: {[id: string]: Todo}}, void> {
 
   render(): JSX.Element {
     const allTodos = this.props.allTodos, todoIds = Object.keys(allTodos);
