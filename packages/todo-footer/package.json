@@ -1,0 +1,17 @@
+{
+  "name": "todo-footer",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "typings": "index.d.ts",
+  "author": "kimamula",
+  "license": "MIT",
+  "devDependencies": {
+    "todo-store": "^1.0.0"
+  },
+  "dependencies": {
+    "react": "^0.14.3",
+    "todo-action": "^1.0.0"
+  },
+  "files": ["index.js", "index.d.ts"]
+}

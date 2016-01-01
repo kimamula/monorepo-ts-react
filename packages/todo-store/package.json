@@ -1,0 +1,13 @@
+{
+  "name": "todo-store",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "typings": "index.d.ts",
+  "author": "kimamula",
+  "license": "MIT",
+  "dependencies": {
+    "todo-dispatcher": "^1.0.0"
+  },
+  "files": ["index.js", "index.d.ts"]
+}

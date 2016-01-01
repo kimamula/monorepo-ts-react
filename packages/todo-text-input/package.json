@@ -1,0 +1,13 @@
+{
+  "name": "todo-text-input",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "typings": "index.d.ts",
+  "author": "kimamula",
+  "license": "MIT",
+  "dependencies": {
+    "react": "^0.14.3"
+  },
+  "files": ["index.js", "index.d.ts"]
+}

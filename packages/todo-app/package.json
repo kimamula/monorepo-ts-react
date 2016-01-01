@@ -1,0 +1,17 @@
+{
+  "name": "todo-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "typings": "index.d.ts",
+  "author": "kimamula",
+  "license": "MIT",
+  "dependencies": {
+    "react": "^0.14.3",
+    "todo-footer": "^1.0.0",
+    "todo-header": "^1.0.0",
+    "todo-main-section": "^1.0.0",
+    "todo-store": "^1.0.0"
+  },
+  "files": ["index.js", "index.d.ts"]
+}

@@ -1,0 +1,43 @@
+{
+  "private": true,
+  "name": "monorepo-ts-react",
+  "version": "1.0.0",
+  "description": "",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kimamula/monorepo-ts-react.git"
+  },
+  "keywords": [
+    "monorepo"
+  ],
+  "author": "kimamula",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kimamula/monorepo-ts-react/issues"
+  },
+  "homepage": "https://github.com/kimamula/monorepo-ts-react",
+  "devDependencies": {
+    "async": "^1.5.0",
+    "browserify": "^12.0.1",
+    "del": "^2.2.0",
+    "dtsm": "^0.13.0",
+    "gulp": "^3.9.0",
+    "gulp-typescript": "^2.10.0",
+    "gulp-util": "^3.0.7",
+    "lerna": "^1.0.5",
+    "merge2": "^0.3.6",
+    "react": "^0.14.5",
+    "react-dom": "^0.14.5",
+    "todo-app": "^1.0.0",
+    "tsify": "^0.13.1",
+    "typescript": "^1.7.5",
+    "vinyl-source-stream": "^1.1.0",
+    "yargs": "^3.31.0"
+  },
+  "scripts": {
+    "build": "gulp build",
+    "build-app": "npm link todo-app && gulp build-app",
+    "bootstrap": "gulp bootstrap",
+    "release": "npm run build && lerna publish"
+  }
+}
