@@ -1,11 +1,14 @@
 {
   "name": "todo-dispatcher",
-  "version": "1.0.0",
+  "version": "1.0.6",
   "description": "",
   "main": "index.js",
   "typings": "index.d.ts",
   "author": "kimamula",
   "license": "MIT",
   "dependencies": {},
-  "files": ["index.js", "index.d.ts"]
+  "files": [
+    "index.js",
+    "index.d.ts"
+  ]
 }

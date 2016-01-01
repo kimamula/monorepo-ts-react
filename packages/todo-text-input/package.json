@@ -1,6 +1,6 @@
 {
   "name": "todo-text-input",
-  "version": "1.0.0",
+  "version": "1.0.6",
   "description": "",
   "main": "index.js",
   "typings": "index.d.ts",
@@ -9,5 +9,8 @@
   "dependencies": {
     "react": "^0.14.3"
   },
-  "files": ["index.js", "index.d.ts"]
+  "files": [
+    "index.js",
+    "index.d.ts"
+  ]
 }

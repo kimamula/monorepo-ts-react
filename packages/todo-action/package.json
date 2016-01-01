@@ -1,16 +1,19 @@
 {
   "name": "todo-action",
-  "version": "1.0.0",
+  "version": "1.0.6",
   "description": "",
   "main": "index.js",
   "typings": "index.d.ts",
   "author": "kimamula",
   "license": "MIT",
   "devDependencies": {
-    "todo-store": "^1.0.0"
+    "todo-store": "^1.0.6"
   },
   "dependencies": {
-    "todo-dispatcher": "^1.0.0"
+    "todo-dispatcher": "^1.0.6"
   },
-  "files": ["index.js", "index.d.ts"]
+  "files": [
+    "index.js",
+    "index.d.ts"
+  ]
 }

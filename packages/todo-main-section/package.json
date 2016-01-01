@@ -1,18 +1,22 @@
 {
   "name": "todo-main-section",
-  "version": "1.0.0",
+  "version": "1.0.6",
   "description": "",
   "main": "index.js",
   "typings": "index.d.ts",
   "author": "kimamula",
   "license": "MIT",
   "devDependencies": {
-    "todo-store": "^1.0.0"
+    "todo-store": "^1.0.6"
   },
   "dependencies": {
     "react": "^0.14.3",
-    "todo-action": "^1.0.0",
-    "todo-text-input": "^1.0.0"
+    "todo-action": "^1.0.6",
+    "todo-text-input": "^1.0.6"
   },
-  "files": ["index.js", "components/**/*.js", "index.d.ts"]
+  "files": [
+    "index.js",
+    "components/**/*.js",
+    "index.d.ts"
+  ]
 }
