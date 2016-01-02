@@ -1,6 +1,6 @@
 # Examining monorepo with lerna as well as my original gulp task
 
-Here, classes and modules of the todo app in [ts-react](https://github.com/kimamula/ts-react/) are devided into npm packages, which are located under [packages dir](https://github.com/kimamula/monorepo-ts-react/tree/master/packages) to examine [monorepo](https://github.com/babel/babel/blob/master/doc/design/monorepo.md) with [lerna](https://github.com/kittens/lerna).
+Here, classes and modules of the todo app in [ts-react](https://github.com/kimamula/ts-react/) are devided into npm packages, which are located under [packages dir](https://github.com/kimamula/monorepo-ts-react/tree/master/packages), to examine [monorepo](https://github.com/babel/babel/blob/master/doc/design/monorepo.md) with [lerna](https://github.com/kittens/lerna).
 
 As the typescript declaration file of the dependee package must be provided prior to the compilation of the depender package, lerna's functionallity is not enough for me.
 See [gulpfile.js](https://github.com/kimamula/monorepo-ts-react/blob/master/gulpfile.js) for detail.
